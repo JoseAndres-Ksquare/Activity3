@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+        .formulario{
+            display: flex;
+            margin-left: 35%;
+            margin-top: 5%;
+            width: 30%;;
+            align-items: center;
+            
+            
+        }
+        .form-content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="formulario">
+
+        <form class="form-content" >
+            <fieldset>
+                <legend>SIGN UP</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="name">Email: </label>
+                <input type="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="name">Age: </label>
+                <input type="number" id="age">
+            </div>
+            <br>
+            <label for="">Gender </label>
+            <div>
+                <label for="name">Man </label>
+                <input type="radio" id="man">
+                <label for="name">Woman </label>
+                <input type="radio" id="woman">
+                <label for="name">Other</label>
+                <input type="radio" id="other">
+            </div>
+            <br>
+            <div>
+                <label for="name">City: </label>
+                <select name="city" id="city">
+                    <option>Campeche</option>
+                    <option>Yucatan</option>
+                    <option>Tabasco</option>
+                    <option>Quintana Roo</option>
+                </select>
+            </div>
+        <br>
+            <div>
+                <input type="checkbox" id="name">
+                <label for="name">Receive information</label>
+            
+            </div>
+        <br>
+            <label for="name">Suggestions: </label>
+            
+            <div>
+                <textarea id="suggestion" cols="30" rows="10"></textarea> 
+
+                
+            </div>
+            <input type="submit" value="submit">
+        </fieldset>
+
+            
+            
+
+
+        </form>
+
+
+    </div>
+</body>
+</html>
